@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border: 6px solid rgb(190, 190, 248);
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.first-box {
+  padding: 35px;
+  border-radius: 30px;
+  background-color: rgba(36, 36, 36, 0.103);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.earnings-container {
+  position: absolute;
+  top: 33%;
+  right: 25%;
+}
+
+
+.pie-chart-container {
+  width: 80%;
+  margin: auto;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pie-chart-container:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
